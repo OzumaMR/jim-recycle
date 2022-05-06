@@ -176,7 +176,7 @@ CreateThread(function()
 	if Config.RequireJob then
 		Targets["RecyclingEnter"] =
 		exports['qb-target']:AddBoxZone("RecyclingEnter", vector3(746.82, -1398.93, 26.55), 0.4, 1.6, { name="RecyclingEnter", debugPoly=Config.Debug, minZ=25.2, maxZ=28.0 },
-		{ options = { { event = "jim-recycle:EnterTradeWarehouse", icon = "fas fa-recycle", label = "Enter Warehouse", job = Config.Job }, },
+		{ options = { { event = "jim-recycle:EnterTradeWarehouse", icon = "fas fa-recycle", label = "Enter Warehouse", job = Config.JobRole }, },
 						distance = 1.5 })
 	else
 		Targets["RecyclingEnter"] =
